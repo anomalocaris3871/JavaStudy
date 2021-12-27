@@ -18,7 +18,7 @@ class Outer {
             MyFunction f = () -> {
                 this.val += 20;
                 Outer.this.val += 20;
-                
+
                 System.out.println("i = " + i);
                 System.out.println("val = " + val);
                 System.out.println("this.val = " + this.val);
